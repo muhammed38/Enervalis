@@ -1,0 +1,28 @@
+.App{
+  height: 900px;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .App{
+    height: auto;
+  
+  }
+  .WeatherNext5Days{
+    background-color:#4A90E2 ;
+    float: none;
+     margin-right:0;
+     width:auto;
+     border:0;  
+     margin-top: 150px;
+
+   }
+}
+
+@media screen and (max-width: 400px) {
+  
+  .Weather{
+    margin-top: 50px;
+}
+}

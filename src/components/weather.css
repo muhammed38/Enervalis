@@ -1,0 +1,133 @@
+.Weather {
+    text-align: center;
+    width: 20%;
+    float: left;
+    margin-bottom: 0px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.buttonDiv{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+}
+ 
+  .imageButton{
+      width: 25px;
+      float: right;
+    }
+  
+
+.WeatherNext5Days{
+   background-color: white;
+   width: 80%;
+    float: right;
+    margin-top: 0px;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.errorStyle{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.wrapper {
+    text-align: left;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+   justify-content: center;
+   height: 100%;
+   flex-grow : 1;
+   
+
+}
+.WrapperApp{
+    height: 100%;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    flex-grow : 1;
+
+
+}
+.maxTempStyle{
+    size:20px;
+    color:#FF0000;
+    padding:10px;
+    margin:0px;
+}
+.minTempStyle{
+    size:20px;
+    color:#4A90E2;
+    padding:10px;
+    margin:0px;
+}
+.dagStyle{
+    size:20px;
+    color:#4A90E2;
+    padding:10px;
+    margin:0px;
+}
+.logoStyle{
+    height: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Weather { 
+     float: none;
+     margin-right:0;
+     width:auto;
+     border:0;  
+     margin-top: 120px;
+
+   }
+   .WeatherNext5Days{
+    background-color:#4A90E2 ;
+    float: none;
+     margin-right:0;
+     width:auto;
+     border:0;  
+     margin-top: 150px;
+
+   }
+   .Wrapper2{
+       flex-direction: column;
+       width: auto;
+   }
+   .maxTempStyle{
+       color: #F8E71C ;
+   }
+   .dagStyle,.minTempStyle{
+       color: white;
+   }
+   .refreshText{
+       display: none;
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+    .Weather{
+        margin-top: 50px;
+    }
+    .WeatherNext5Days{
+        margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .Weather{
+        margin-top: 50px;
+    }
+    .WeatherNext5Days{
+        margin-top: 10px;
+    }
+  }
+  
